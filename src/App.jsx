@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //Components
 import Login from "./components/auth/Login";
@@ -9,11 +9,11 @@ import Proyects from "./components/proyects/Proyects";
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" component={Login} />
-        <Route exact path="/new-account" component={NewAccount} />
-        <Route exact path="/proyects" component={Proyects} />
-      </Switch>
+      <Routes>
+        <Route exact path="/" element={<Login />} />
+        <Route exact path="/new-account" element={<NewAccount />} />
+        <Route exact path="/proyects" element={<Proyects />} />
+      </Routes>
     </Router>
   );
 }

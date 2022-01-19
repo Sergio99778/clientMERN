@@ -318,6 +318,7 @@ aside {
   border: 1px solid #e1e1e1;
   padding: 1rem;
   flex: 1;
+  border-radius: 5px;
 }
 
 .enlace-cuenta {
