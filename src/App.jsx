@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //Components
 import Login from "./components/auth/Login";
 import NewAccount from "./components/auth/NewAccount";
-import Proyects from "./components/proyects/Proyects";
+import Proyects from "./components/proyects/Projects";
 
 function App() {
   return (
