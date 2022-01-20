@@ -46,6 +46,7 @@ const Login = () => {
               id="password"
               onChange={handleChange}
               value={password}
+              placeholder="Password"
             />
           </div>
           <div className="campo-form">
