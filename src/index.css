@@ -89,6 +89,9 @@ a {
   display: block;
   background-color: transparent;
 }
+.btn-eliminar {
+  background-color: var(--blanco);
+}
 .cerrar-sesion {
   color: var(--blanco);
 }
@@ -319,6 +322,7 @@ aside {
   padding: 1rem;
   flex: 1;
   border-radius: 5px;
+  width: calc(100%-32px); /* Added by comment */
 }
 
 .enlace-cuenta {
