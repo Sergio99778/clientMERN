@@ -4,6 +4,7 @@ import React from "react";
 import Sidebar from "../layout/Sidebar";
 import Header from "../layout/Header";
 import FormTodo from "../todos/FormTodo";
+import ListTodos from "../todos/ListTodos";
 
 const Proyects = () => {
   return (
@@ -13,7 +14,9 @@ const Proyects = () => {
         <Header />
         <main>
           <FormTodo />
-          <div className="contenedor-tareas"></div>
+          <div className="contenedor-tareas">
+            <ListTodos />
+          </div>
         </main>
       </div>
     </div>
