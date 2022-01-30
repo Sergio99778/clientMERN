@@ -2,6 +2,7 @@ import React from "react";
 
 //Components
 import Sidebar from "../layout/Sidebar";
+import Header from "../layout/Header";
 
 const Proyects = () => {
   return (
@@ -9,6 +10,7 @@ const Proyects = () => {
       <Sidebar />
       <div className="seccion-principal">
         <main>
+          <Header />
           <div className="contenedor-tareas"></div>
         </main>
       </div>
